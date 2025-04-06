@@ -103,6 +103,8 @@ export const AppointmentForm = ({
           type,
         };
 
+        // Error
+        // @ts-ignore
         const updatedAppointment = await updateAppointment(appointmentToUpdate);
 
         if (updatedAppointment) {
